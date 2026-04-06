@@ -1,0 +1,71 @@
+Aim: To stimulate basic tient Injection and Cross-site [xsa] attacks on DVMA and Helement input validation and sanitization techniques os counted nea
+
+Theory:
+
+Web Application Vulnerabilities
+
+Application fail to distinguish user data & executable code
+
+Poor inpot handling leads to security breaches
+
+2. SQL Injection (Sqli)
+
+↳ Inserting malicious Sol code into application queries.
+
+Is Impact: Data theft, authentication by pass, database manipulation
+
+Type: In-band, Blind & Union based
+
+↳ Root causes: Direct concatenation of user
+
+Input into sol quaries cross-site scripting [xss]
+
+Cress-Site Scripting (xss] Defimation: Injection
+
+Injection malicious scripting into web pages viewed by others
+
+Impact: Session hijacking, credential theft & web defacement
+
+Type: Replected & Stored xss
+
+↳ Rest Cause: Insufficient output encoding
+
+Methodology:
+
+1. Installed and configured XAMPP on the local system
+
+2. Opened the XAMPP control panel a start the Apache and MY SOL
+
+3. Placed the test web application file inside the 'htdocs" folder of the XAMPP directory
+
+4. Opened the web browser and accessed the application using
+
+http:ll local host.
+
+6. Navigated to the login page or input form available in the web application
+
+7. Enter malicious input in the form field to test SOL injection. vulnerabilities observed the response of the application
+
+Enter a simple script in the input field to test for cross-site scripting xss] vulnerability.
+
+8.Observed that opplication accepted the malicious input when noValidation was applied
+
+9. Modify the source code of the application to add input validation and sanotizotion techniques
+
+10. Re-tested the same input again after applying the protection methods
+
+11. Verified that the application no longer execute the malicious queries on scripts
+
+Future Scope:
+
+1. Implement advanced protection techniques such as prepared statement and parameterized queries. Security framework to reduce
+
+2. Use web application sec
+
+vulnerability in web application. 3. Deploy web application firewall (WAF) to detect and block malicious traffic.
+
+Project Idea:
+
+Secure Coding Analyzer (Tool that scans source codo).
+
+DVWA Automation Script (Automatically tests DVWR vulnerabilities).
