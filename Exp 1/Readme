@@ -1,0 +1,29 @@
+Aim : Analyze Sample code Snippets to identify basic security flaws Study c/Pythen code snippets to identify common vulnerabilities like buffer overflow, msecure input handling, or hard coded credentials Tools like Static analysers or manual code walkthroughs can be used
+
+Theory:Software vulnerablities are weaknesses present in code that allow attackers con exploit these weaknesses typically arise due to improper input handling and insecure programming practices
+
+Buffer Overfibio Occurs when the input size exceeds the allocated buffer capacity, resulting in memory corruption
+
+Forrest string vulnerability) Happens when user inpot is directly used in Jenction like print() without proper fermat specification allowing unitented access to mentery.
+
+Command Injecton (CWE-28) : Takes place when user input is passed to execute nderismmands, enabling attacks Sirectly into
+
+Hard cocled Ceedentials (cwe-289): Refers to storing sensitive information suchas password? directly in the secure code, which creates serious security risks
+
+Methodology:
+
+1. Selected vulnerable C/ Python programs for analysis.
+
+2 Cendueted manual code inspection to identify unsafe function. a Used stotic analysis tools to detect potential security warnings
+
+u Recognised and categorised the discovered vulnerabilitios
+
+5 Compared msecure code with secure coding implementation.
+
+Result:
+
+The findings clearly indicates that even miner coding errors can leads to serious security volnerabilities. Lack of validation and the use of unsafe functions increase the chances of proper input of system crashes, data exposure, unauthorised access and remote command execution.
+
+Future scope:
+
+Apply automated security tools to detect and prevent vulnerabilities in real-world applications.
