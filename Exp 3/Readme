@@ -1,0 +1,60 @@
+Are: Porform cryptographic hashing and secure password storage.
+
+Experiment with hashing algorithm (MDS, SHA-256) and demonstrate Procle password the storage, stevege using hosting + sotting scripting in python or using
+
+Theory: Password hasing is a techniques used to "or" string called "hosh value" into fixed length string calle USES 'MDS' OY 'SHA-28 the data "It mainly "SHA-256 for password protection because they transform password in to irreversible voluas.
+
+To enhance security, Salting is used. A salt is a rondom value added to the pass word before hashing. Thes ensures that if two users have the same password, their will be different, preventing attacks like rainbow attack
+
+Methodology:
+
+Impact python libarious like hashlib and os. The hashlib Library is used to to implement the cryptographic hashing algorithm osed to generate such as MDS or SHA-256, while 'os' library is used to random salt.
+
+2. We have done with experiment in two parts-Password hashing
+
+1. With Salting
+
+ii. Without Salting
+
+3. With Salting:- It will add randomness into the hash and makes password hashing more secure as compare to normal password hashing.
+
+i. Smilarly as in A stored-username is there.
+
+in. Stored-hash in computed through user input, because storing is a bad practice. Plaintext password in a code is a
+
+. A random solt is generated using "Os, random".
+
+iv. The stored-hash= hash+Salt
+
+v. The program ask for username & password
+
+vi. The other login-hash is computed and mixed with this salt add randomness to hash.
+vi. Then, if username stored-username & login-hash stored successful/unsuccessful
+
+4. Without Salting:
+
+i. A stored username is there stored username: "admin"
+
+ii. The program/computer computes the 'stored-hash using "hashlib. Sha-256 (input)"Enter pass") encodet).
+
+. Then, program ask for the username & password.
+
+iv . It check/compares the stored-username and user input username and mainly compares the stored-hash and the login-hash.
+
+v. If username stored Username and stored-hash login hash. Ls"login successfull"
+
+else
+
+Login Failed"
+
+Future Scope:
+
+Integration of password hashing system into real-world web applications (login/sigrup systems).
+
+Use of hashing in blockchain and digital signature systems.
+
+Project Idea!
+
+1. Password strength Checker + Hasher
+
+. Web-based Secure login System (Hashed passwords, Salting, login session Management).
