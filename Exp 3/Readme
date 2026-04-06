@@ -1,8 +1,9 @@
-Are: Porform cryptographic hashing and secure password storage.
+Aim: Porform cryptographic hashing and secure password storage.
 
 Experiment with hashing algorithm (MDS, SHA-256) and demonstrate Procle password the storage, stevege using hosting + sotting scripting in python or using
 
-Theory: Password hasing is a techniques used to "or" string called "hosh value" into fixed length string calle USES 'MDS' OY 'SHA-28 the data "It mainly "SHA-256 for password protection because they transform password in to irreversible voluas.
+Theory: 
+Password hasing is a techniques used to "or" string called "hosh value" into fixed length string calle USES 'MDS' OY 'SHA-28 the data "It mainly "SHA-256 for password protection because they transform password in to irreversible voluas.
 
 To enhance security, Salting is used. A salt is a rondom value added to the pass word before hashing. Thes ensures that if two users have the same password, their will be different, preventing attacks like rainbow attack
 
