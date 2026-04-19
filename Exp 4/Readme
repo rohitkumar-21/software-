@@ -1,0 +1,47 @@
+Aim:To manually review a login wedule for insecure practices and prepare secure code fixes.
+
+Theory:
+
+Plain-text password's:
+     stared as is; database compromise teaks all credentials.
+
+S&l Injection:
+      User input concatenated into sat queries, attackers bypass authentication or extract dota
+
+Mixing Input Validation:
+      No checks on empty/special characters; loade te injection and Unexpected behaviour
+
+Hardcoded Credenthals:
+      Database passwords inside source code; exposed if files are readable
+
+No-Password Hashing:
+      Raw Passwords compromised; violates confidentiality.
+
+No-Session Management
+      Login success doesn't create a session; user not truly logged in
+
+Methodology:
+
+1.Setup
+      Install Apache, MySaL, PHP on Parrot OS; Create/var/www/html/login-lab.
+
+2. Build Vulnerable login
+      Index html from login.php with hardcoded DB credentials.
+
+3. Review Code
+      Identify flaws: 5al injection, missing validation, no sessions etc.
+
+4.Exploit
+      Use payload 'OR '1'-- to bypass login; query DB to see plantert password
+
+5. Secure Implementation
+      Replace with prepared statements; external configurations, impot validation and session start.
+
+6. Test Secure Version
+      Valid login works; injection fails; Passwords hashed in DB.
+
+7. Document
+      List vulnerabilities; severity and fixes.
+
+Future Scope:
+      Add MFA and rate-Limiting to evolve this lab into a production-ready authentication system for real world web application.
