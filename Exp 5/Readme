@@ -1,0 +1,35 @@
+Aim: Capture HTTP logo traffic using wireshark to see plaintest credentials DATE and onclerstand
+
+Theory:
+  > HTTP sends data in plaintext-по encryption
+   >login credemnat appear directly in packet payloads
+    >Attackers on the same network can sniff username and password using their the wireshark 
+     >HTTPs encrypt everythink, preventing eavesdropping.
+      >Any network sniffer [eg Wireshark, tcpdump] con reconstruct the entire HTTP session.
+       >HTTPs[HTTP over TLS/SSH]=more secure.
+
+Methodology:
+
+Setup a HTTP server:
+     Create a simple python HTTP server
+     Server on port 8030
+
+Start Facture Coptore:
+     Open wirninark and select leapbook []
+     Apply Filters [http] [192.168-159-129]
+
+Simulate Uses login:
+     Accessed [http://localhost:8080] in browser.
+     Enter credentalst and click login.
+
+Capture & Analyze:
+     Capture the http pocket
+     Inspect the ntip pocket to find credentials.
+
+Document Findings:
+     Observe plaietert credentials in packet
+     Also noticed HTTP headers.
+
+Future Scope:
+
+Develop a network-level intrusion detection system (IDS) that automatically alerts & blocks any HTTP login from submissions in real time
