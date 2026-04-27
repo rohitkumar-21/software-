@@ -1,0 +1,52 @@
+Aim: Scan a system of web app for commen vulnerabilities Scanning Using OWASP ZAP.
+
+Background:
+
+Vulnerability scaming helps detect:
+
+    -Misconfiguration
+    -Outdated Software
+    -Weak authentication
+
+One of the most widely used tools is OWASP znp developed by OWASP.
+
+Types of scamming:
+
+Passive Scan [Safe Testing)
+
+Active Scan [Agressive Testing]
+
+Methodology:
+
+1)Set up environment
+
+  Install owasp zap
+
+  run your web app
+
+2)Configure Proxy
+
+   IP Address 127.0.0.1
+
+   Port: 8080
+
+3)Capture Traffic
+
+   Open your web app
+
+   Zap records all request.
+
+4) Perform scan
+
+   Automatically scan traffic for:
+
+    1 Cookie issues
+    2 Information leakage
+              
+Project idea:
+
+1)Create a login system that dynamically adjusts security based on risk.
+
+2)Design a Blockchain-Integrated Multifactor Authentication (MFA) System for secure online exam.
+
+Result:
