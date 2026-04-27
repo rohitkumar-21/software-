@@ -1,0 +1,54 @@
+Aim: Secure authentication with password hashing.
+     Develop a simple login form and add hashed password verification. Demonstrates how secure authentication should work.
+
+Theery:
+       Authentication is a core component of web security Strong password in plaintext is highly insecure because attackers can easily need of the database is
+       compromised.
+       Modern system use hashing algorithm Like SHA-256, Ecc to securely store passwords.
+
+Hashing:
+
+1)Converts password Fixed length, encrypted string
+
+2)One way (Camot be secured)
+
+3)Often combined with setting to prevent rainbow table attack
+
+Methodology:
+
+Step 1:
+
+Create a login page
+
+Build a login page using -HTML-PHP-MySL [Database]
+
+Step 2:
+
+Store Hashed Passworde
+
+import hashlib
+import getpass
+
+Step 3: Verify Password Doring logins
+
+import hashlib
+import getpass
+
+Step 4: Database Storage
+
+Store only hashed passwords
+
+Never store plaintext passwords
+
+Future Scope:
+
+Authentication system will evolve towards mati-factor and passwor less method like biometrics and OTP for stronger Security. Advanced replace basic hashing algorithm 
+such as borypt and Argon2 will repl hashing techniques
+
+Project Idea:
+
+1 Brute Force Attack Simulation System.
+
+2 CAPTCHA-Based Login System.
+
+Result:
