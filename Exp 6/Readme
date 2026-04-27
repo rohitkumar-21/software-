@@ -1,0 +1,66 @@
+Aim. To design and analyze a threat model for web application by identifying surface.
+
+Theery: 
+       Threat Modeling it is a systematic process used to identify, evaluating and mitigate security risks in a system, it helps developers understand how attackers con expléit vulnerability.
+       can exploits the vulnerabilities.
+
+STRIDE Model:
+
+Stride is a most widely used threat modeling fromework developed by microsoft
+
+Spoofing: impersonating user
+
+Tampering: Modification of data.
+
+Reputation Denying action without tracebility
+
+Information: leakage of sensitive data. dotale service? Making system vulnerable. Denial-of-service
+
+Elevation of priviledge: Making system vulnerable.
+
+Methodology:
+
+1) Identify Components
+
+User, Login Page
+
+Database
+
+2) Identify Attack surface.
+
+legin form inputs
+
+Authentication system
+
+Data transmission between client and server.
+
+3) STRIDE Analysis.
+
+STRIDE Cotegery                      Threat Example                                           Impact
+
+Spoofing                             Credential, stuffing, , stuffing, brute force            Unauthorized login
+
+Tampering                             sql injection on login form                             Database compromise
+
+Reputation                            No logging of login attempts                            No Traceability
+
+Info Disclosure                       Plaintext Password storage                              Data leakage
+
+Denial of service                     Repeated login attempts                                 Server overload
+
+Priviledge Escalation                 Bypassing authentication                                Admin access
+
+
+Project Idea:
+
+Behaviour biometrics authentication
+
+Whenever a user login, the system captures behavioural data such as:
+
+1)Typing speed
+
+2)Mouse Movement
+
+3)Interactions patterns.
+
+Result!
