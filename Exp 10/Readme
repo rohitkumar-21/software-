@@ -1,0 +1,30 @@
+Aim: Simulate a simple incident response based on sample logs.
+
+Griven access logs or system events, identify suspicious activities (eg, brute force login attemp incident report.
+Can be done with attempts) and draft a basic with log files and spreadsheet tools.
+
+Theory:
+      Incident response involves detecting analyzing, contaming. cradicating, and recovering from a security incident. logs provide important evidence for 
+      investigation.Common indicators include repeated failed logins, unusual 18 addresses, abnormal user agents, and unauthorized access attempts.
+
+Methodology:
+
+1. Obtain sample logs from a webpage or system.
+
+2. Search for unusual activity such as repeated failed login attempts.
+
+3. Identify the IP adetress from where the request Come
+
+4. Create a timeline of suspicious events.
+
+5. Draft an incident report.
+
+6. Propose mitigation and containment measures.
+
+Project Idea:
+
+Develop a Python-based module that automatically detects sat injection payloads, brute-force attempts, and other attacks from log files.
+
+Result:
+
+Log analysis helped in detecting a brute-force attempts and identifying the suspicious IP address and misused user account in the system.
