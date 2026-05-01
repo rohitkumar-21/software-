@@ -1,0 +1,40 @@
+Aim: Inspect browser artifacts, history, cookies and saved data.
+
+Theory:
+
+1)Browser Artifacts:
+       Digital traces including history (Urls + timestamps), cookies (tracking tokens), local storage (HTML5 data) and saved Credentials
+
+2) Storage Location:
+       Firefox (~/ mozilla/Firefox/)
+
+3)Privacy Risks:
+       ↳ Third party track users accross websites without consent
+          Missing (Http Only) flag enables session hijacking by Xss.
+       ↳ Saved Passwords decryptables by local malware.
+          local storage persists idefinitely Containing JWT tokens and PII.
+
+4) Key Cookie Attributes:
+        (Secure) (HTTPS only), (HTTP only) (ne JS access), (Demain) Cindicates tracking scope).
+
+Methodology:
+
+1)Setup
+      ↳ sudo apt update des mkdir ~/browser-forensics 
+       cd ~/browser-forensics.
+
+2)Manual Inspection:
+       Open Firefox F-12 Storage tab View cookies/Local storage →Ctrl+H (for history).
+
+3) Hack Browser Data:
+      ↳ Download, extmet, run [./hack-browser-Dota-ball-b jsendir resure]
+
+4)Fox Hunter:
+     git clone pip install-s requirements txt- ron with (-A) flag for analysis
+
+5)Risk Analysis:
+     grep for tracking domains (doubleclick/analytics) and check (httpOnly) blogs.
+
+Future Scope:
+
+Develop a real-time browser privacy scoring extensions. that detects tracking cookies and exposed session tokens                                                                        
